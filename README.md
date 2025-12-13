@@ -7,7 +7,7 @@
 
 ## 🧱 セットアップ手順
 
-### 1. Python環境の準備
+### 環境準備
 
 Python 3.12以上が必要です。  
 [uv](https://github.com/astral-sh/uv) を使用して仮想環境・依存解決を高速に行います。
@@ -16,16 +16,11 @@ Python 3.12以上が必要です。
 curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
 
-### 2. リポジトリのクローンと依存関係のインストール
+### 2. 依存関係のインストール
 
 ```sh
-git clone https://github.com/yourusername/rap-generator.git
-cd rap-generator
 uv sync
-source .venv/bin/activate  # Unix系の場合
-# .venv\Scripts\activate  # Windowsの場合
 ```
-
 ---
 
 ## ⚙️ 機能一覧

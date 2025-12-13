@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "rap-generator": {
+      "type": "stdio",
+      "command": "uv",
+      "args": [
+        "run",
+        "rhyme_mcp_server.py"
+      ],
+      "env": {}
+    }
+  }
+}

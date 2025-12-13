@@ -138,6 +138,7 @@ def main() -> None:
         for j in list(range(ord("あ"), ord("ん") + 1)) + [ord("っ")]
         if chr(i) not in "ぁぃぅぇぉゃゅょゎゐゑをん" and chr(j) not in "ぁぃぅぇぉゃゅょゎゐゑをん"
     ]
+    print("start crawling...")
     out_path = Path("data") / "in_note_rhymes.csv"
     crawl(prefixes, out_path)
 

@@ -16,3 +16,5 @@ wheels/
 # Data
 data/in_note_rhymes.csv
 rhyme_scrape.log
+
+.claude/

@@ -37,7 +37,8 @@ def get_rhymes(word: str, top_k: int | None = 100) -> List[Tuple[str, str]]:
         2. 同じ文字数の単語間はランダム抽出
 
     Args:
-        word (str): インプット単語
+    word (str): インプット単語。ひらがなに直さず、元々の単語で指定する
+
         top_k (int | None, optional): 返す最大件数。None で全件
 
     Returns:
@@ -83,8 +84,8 @@ def create_rap(theme: str, num_section: int = 4) -> str:
     ラップ歌詞を生成するプロンプトテンプレート。
 
     Args:
-        grid_path (str): ラップ歌詞のグリッドデータのパス
-        clue_path (str): ラップ歌詞の手がかりデータのパス
+        theme (str): ラップのテーマ
+        num_section (int): 生成するセクション数（デフォルト4）
 
     Returns:
         str: プロンプトテンプレート文字列
