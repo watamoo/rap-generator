@@ -13,7 +13,7 @@ Python 3.12以上が必要です。
 [uv](https://github.com/astral-sh/uv) を使用して仮想環境・依存解決を高速に行います。
 
 ```sh
-pip install uv
+curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
 
 ### 2. リポジトリのクローンと依存関係のインストール
