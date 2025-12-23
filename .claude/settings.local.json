@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__rap-generator__get_available_words",
+      "mcp__rap-generator__get_rhymes",
+      "mcp__rap-generator__search_words"
+    ]
+  },
+  "enabledMcpjsonServers": [
+    "rap-generator"
+  ],
+  "enableAllProjectMcpServers": true
+}
+
